@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Users Data</title>
+    <link rel="stylesheet" href="JsDay3.css">
+</head>
+<body>
+
+<h2>Fetch Users</h2>
+<button id="fetchUsersBtn">Get All Users</button>
+
+<!-- Input field and button for searching a specific user by ID -->
+<h2>Search User by ID</h2>
+<input type="number" id="userIdInput" placeholder="Enter user ID">
+<button id="searchUserBtn">Search User</button>
+
+<!-- Table to display users -->
+<table id="usersTable" class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Website</th>
+        <th>ID</th>
+    </tr>
+    </thead>
+    <tbody id="usersTbody">
+    <!-- Rows will be dynamically inserted here -->
+    </tbody>
+</table>
+
+<script src="JsDay3.js"></script>
+
+</body>
+</html>
